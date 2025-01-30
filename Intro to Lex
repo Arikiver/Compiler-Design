@@ -1,0 +1,11 @@
+What is Lex?
+->  Lex is a tool for lexical analysis.
+    You define patterns (regular expressions) that match parts of the input.
+    And for each match, Lex executes some code you specify.
+
+Structure of a Lex Program:
+->  A Lex program consists of three sections:
+    1. Definition Section: Declare variables and include headers like #include <stdio.h>.
+    2. Rules Section: Define patterns and corresponding actions.
+    3. User Code Section: Write supporting code like the main() function.
+
