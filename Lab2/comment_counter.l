@@ -10,7 +10,7 @@
 %%
 "//".*          { single_line_comments++; }  // Count single-line comments
 
-"/*"            { 
+"/*"            {
                   BEGIN(MULTI_COMMENT);      // Enter multi-line comment state
                   in_comment = 1;
                   comment_line_start = 1;
